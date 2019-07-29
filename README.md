@@ -36,7 +36,11 @@ Together, Emscripten and Empirical enable full-fledged software to exploit this 
 
 # Discussion
 
-Technical description of the presented topic.
+Empirical is header-only, encapsulated into the `emp` namespace, and released under the MIT license, so it is simple to incorporate into existing projects.
+
+Empirical employs unit testing via Catch, automated coverage analysis via codecov, code quality analysis via Codacy, and continuous integration via Travis CI.
+Documentation generated via Breathe is hosted at readthedocs.io.
+Empirical releases are mirrored on Zenodo, where they are assigned a DOI to allow the library to be cited as a scholarly source and archived to ensure long-term reproducibility of scholarly work performed using the library.
 
 # Completion Status
 
