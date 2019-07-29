@@ -1,6 +1,6 @@
 # Introduction
 
-Empirical: a C++ library to support efficient, reliable, and accessible scientific software
+**Empirical: a C++ library to support efficient, reliable, and accessible scientific software**
 
 Empirical is a library of tools for developing efficient, reliable, and accessible scientific software.
 
