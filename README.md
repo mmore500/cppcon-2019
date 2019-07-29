@@ -7,15 +7,32 @@ Empirical is a library of tools for developing efficient, reliable, and accessib
 Major components of Empirical include:
 * a high-level interface to interact with JavaScript and HTML elements when building with Mozilla's Emscripten compiler (from C++ to high-efficiency JavaScript),
 * debugging tools to facilitate audited memory management,
-* a powerful set of evolution tools for building Artificial Life or Evolutionary Computation software,
-* a wide range of helper tools to streamline common scientific computing tasks such as configuration and data management, and
-* a signal-action system that allows for efficient customization of tools and flexible software that can easily facilitate plug-in functionality.
+* a powerful set of evolution tools for building Artificial Life or Evolutionary Computation software, and
+* a wide range of helper tools to streamline common scientific computing tasks such as run-time configuration and data management.
 
 The Empirical library is developed and maintained primarily by the Digital Evolution Laboratory at Michigan State University.
 
 # Relevance
 
-Why the work is interesting, and what problems it addresses.
+Historically, the Digital Evolution Laboratory has developed Avida digital evolution platform to support experimental work with self-replicating, evolving computer programs.
+The software was successively extended to support new experimental treatments and data collection requirements.
+Over time, Avida source became increasingly difficult to maintain and extend.
+Run-time inefficiencies accumulated, too.
+
+Around 2015, the lab began to shift focus from maintaining a single piece of software to instead developing a common library to support rapid development of software to back individual digital evolution projects.
+Indeed, Empirical provides a flexible digital evolution framework, which can interchangeably employ a variety of selection and population structure techniques.
+The digital evolution framework can apply to nearly any optimization problem for which a quantitative solution quality metric can be defined.
+However, the library also provides virtual hardware implementations to execute evolving computer programs, which are of particular interest to the group.
+
+In addition to digital evolution tools, Empirical provides debugging wrappers for pointers and standard library components, which track and report out-of-bounds accesses and memory leaks.
+These wrappers decompose to normal standard library components in non-debug mode, averting performance penalties.
+
+Emscripten, which compiles C++ to JavaScript code that can run client-side in a web browser, also strongly shaped the development of Empirical.
+Historically, Emscripten has provided a limited and low-level interface to interact with HTML and Javascript components.
+Empirical's web tools provide an object-oriented interface to these components, including faculties for drawing and animation.
+The web browser provides an attractive graphical and interactive medium to visualize intermediate states and results of experiments.
+Furthermore, web interfaces are near universally accessible, on both mobile and desktop devices --- they provide a unique opportunity to reach a broad lay audience.
+Together, Emscripten and Empirical enable full-fledged software to exploit this medium via a lightweight web driver.
 
 # Discussion
 
