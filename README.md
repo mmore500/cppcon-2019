@@ -12,7 +12,8 @@ Technical description of the presented topic.
 
 # Completion Status
 
-Work that has been completed, and work that is expected to be completed before the poster presentation at CppCon.
+Empirical is under continuous active development to broaden its tool set, accommodate API changes in the Emscripten compiler, and incorporate new methods from the cutting edge of digital evolution.
+However, major library components --- including  web, debug, and digital evolution tools --- are stable and actively used in multiple projects, both inside and outside the Digital Evolution Laboratory.
 
 # Contact Information
 
