@@ -1,6 +1,17 @@
 # Introduction
 
-Title and brief overview of what the poster reports on.
+Empirical: a C++ library to support efficient, reliable, and accessible scientific software
+
+Empirical is a library of tools for developing efficient, reliable, and accessible scientific software.
+
+Major components of Empirical include:
+* a high-level interface to interact with JavaScript and HTML elements when building with Mozilla's Emscripten compiler (from C++ to high-efficiency JavaScript),
+* debugging tools to facilitate audited memory management,
+* a powerful set of evolution tools for building Artificial Life or Evolutionary Computation software,
+* a wide range of helper tools to streamline common scientific computing tasks such as configuration and data management, and
+* a signal-action system that allows for efficient customization of tools and flexible software that can easily facilitate plug-in functionality.
+
+The Empirical library is developed and maintained primarily by the Digital Evolution Laboratory at Michigan State University.
 
 # Relevance
 
