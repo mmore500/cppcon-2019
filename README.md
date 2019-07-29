@@ -5,6 +5,7 @@
 Empirical is a library of tools for developing efficient, reliable, and accessible scientific software.
 
 Major components of Empirical include:
+
 * a high-level interface to interact with JavaScript and HTML elements when building with Mozilla's Emscripten compiler (from C++ to high-efficiency JavaScript),
 * debugging tools to facilitate audited memory management,
 * a powerful set of evolution tools for building Artificial Life or Evolutionary Computation software, and
