@@ -30,4 +30,5 @@ His research has focused more generally on understanding how evolution produces 
 
 # Supporting Material
 
-If applicable, results and references to work, for example, GitHub.
+* The Empirical library source is hosted at [http://github.com/devosoft/Empirical](http://github.com/devosoft/Empirical).
+* The Built with Empirical Gallery, which showcases web tools built using Empirical, is hosted at [https://empirical.readthedocs.io/en/latest/BuiltWithEmpiricalGallery/](https://empirical.readthedocs.io/en/latest/BuiltWithEmpiricalGallery/).
